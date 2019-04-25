@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Course Constructor</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="pinterest" content="nopin">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <!-- <link rel="stylesheet" type="text/css" href="bootstrap.min.css"> --> 
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/signIn.css">
+</head> 
+<body> 
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">     
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!-- UML logo-->
+        <div class="uml_logo">
+          <a href="https://www.uml.edu/"><img class="img-responsive"      
+          src="images/uml_logo.svg"></a>
+        </div>
+        <!-- Course Cunstroctor-->
+        <h2 class = "navbar-text" style = "color: white"> Course Constructor </h2>
+      </div>
+      <!--
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="home.html">home</a></li>
+          <li><a href="myPath.html">My Path</a></li>
+          <li><a href="mySchedule.html">My Schedule</a></li>
+          <li><a href="myElectives.html">My Electives</a></li>
+          <li><a href="signIn.html">Sign Out</a></li>
+        </ul>
+      </div>
+      -->
+    </div>
+  </nav>   
+  <div class= "container welcome">
+    <div class="row">
+      <!-- center content container -->
+      <div class ="container text-center">
+        <div class = "jumbotron">
+          <h3> Welcome to the Next Step in Planning Your College Career. </h3>
+          <p> Course Constructor makes it easy to get the most of you education.
+            Start planning your time at Umass Lowell with the touch of a button. <br> 
+            What are you waiting for? </p>
+          
+        </div>
+      </div>  
+    </div> <!--row end-->
+  </div>
+    <!-- sign in form with styles taken from https://codepen.io/ace-subido/pen/Cuiep -->
+  <div class = "container">
+    <div class = "row">
+      <div class = "container" >
+        <div class="wrapper">
+          <form form action="home.html" method="GET" class="form-signin">       
+            <!-- <h4 class="form-signin-heading">Sign in</h4> -->
+            
+            <input type="email" class="form-control" name="Email" placeholder="UML Email Address" required="" autofocus="" />
+            <input type="password" class="form-control" name="password" placeholder="Password" required=""/>      
+            
+            <button class="btn btn-md btn-primary btn-block" type="submit">Sign in</button>  
+            <!-- <input type="hidden" name="redirect" value="home.html"> -->
+          </form>
+        </div> 
+      </div> 
+    </div>  
+  </div>      
+      <!-- center content container end-->
+  <footer class="container-fluid text-center">
+    <p>&copy; 2019: Charles Gilfeather, Andrea Panaro, Oscar De La Rosa</p>
+  </footer>
+
+</body>
+</html>

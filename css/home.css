@@ -1,0 +1,57 @@
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+   body { 
+    font-family: 'Open Sans',sans-serif;
+    /*background-color: #0469B1;*/
+  } 
+
+  .jumbotron {
+    font-size: unset;
+    background-color: #d3d3d3;
+    padding-bottom: 5px;
+    border-radius: 3px;
+  }
+
+  .jumbotron h1 {
+    font-size: 4rem;
+    margin-top: 90px;
+  }
+
+  .jumbotron p {
+    font-size: 2rem;
+  }
+  
+#options {
+  margin-top: 20px;
+  margin-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-group {
+  margin-bottom: 40px;
+}
+.card {
+  max-width: 250px;
+  margin: auto;
+  border: unset;
+  border: solid #d3d3d3 2px;
+  border-radius: 3px;
+  
+  background-color: white;
+  padding: 0px;
+  margin-top: 10px;
+}
+.card-title  { 
+  color:  #434545;
+  margin: 0px;
+  padding: 10px;
+  font-weight: bolder;
+  z-index: -1;
+}
+
+.btn {
+  background-color:  #0469B1;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+
+  

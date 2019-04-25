@@ -1,0 +1,92 @@
+body { 
+  font-family: 'Open Sans',sans-serif;
+  background-color: white;
+ 
+}
+a {
+  border: unset;
+}
+.current a {
+  border: solid #0469B1;
+}
+.navbar {
+  position: fixed;
+  top: 0px;
+  border-radius: 0;  
+  border: solid 0469B1 3px;;
+  background-color: #434545; 
+  color: white;
+  min-width: 100%;
+  min-height: 70px;
+  z-index: +1;  
+  border: unset;
+}
+
+.navbar-nav {
+  position: fixed;
+  top: 5px;
+  right: 20px;
+  z-index: +1; 
+  
+}
+.navbar li {
+  padding: 0px;
+  background-color: #434545;
+ 
+}
+
+.navbar-text {
+  position: fixed;
+  top: 20px;
+  margin-right: 0px;
+  left: 120px;
+  font-style: italic; 
+  font-size: 16pt;
+  z-index: +1;
+  text-align: left;
+  padding: 0px;
+  border: unset;
+}
+
+.uml_logo { 
+  position: fixed; 
+  top: 10px; 
+  left: 10px;
+  padding: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0px;
+  max-width: 90px;
+  min-width: 90px;
+  min-height: 100px;
+  background-color: white;
+  z-index: +1;
+  
+  border: solid  #0469B1 2px;
+}
+.uml_logo img {
+  position: fixed; 
+  top: 20px;
+  left: 20px;
+  width: 70px;
+  height: 80px;
+
+}
+
+  footer {
+    position: fixed;
+    font-weight: lighter;
+    font-size: 10pt;
+    bottom: 0px;
+    background-color: #434545;
+    color: #d3d3d3;
+    margin-top: 20px;
+    padding: 5px;
+    height: auto;
+    width: 100%;
+  }
+  
+  /* On small screens, set height to 'auto' for sidenav and grid */
+  @media screen and (max-width: 767px) {
+    .row.content {height:auto;} 
+  }
