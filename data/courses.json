@@ -1,0 +1,311 @@
+{
+  /* List of courses to take to fulfill CS curriculum by semester
+  Freshman Year - Fall */
+  "courses": {
+    "COMP1010": {
+      "cName": "Computing I",
+      "cNum": "1010",
+      "cCredit": "3",
+      "cDepartment": "COMP",
+      "preReq": "None",
+      "coReq": "COMP1030L"
+    },
+    "COMP1030L": {
+      "cName": "Computing I Lab",
+      "cNum": "1030L",
+      "cCredit": "1",
+      "cDepartment": "COMP",
+      "preReq": "None",
+      "coReq": "COMP1010"
+    },
+    "MATH1310": {
+      "cName": "Calculus I",
+      "cNum": "1310",
+      "cCredit": "4",
+      "cDepartment": "MATH",
+      "preReq": "None",
+      "coReq": "None"
+    },
+    "ENGL1010": {
+      "cName": "College Writing I",
+      "cNum": "1010",
+      "cCredit": "3",
+      "cDepartment": "ENGL",
+      "preReq": "None",
+      "coReq": "None"
+    },
+    "XXXXXXXX": {
+      "cName": "Social Science Elective",
+      "cNum": "XXXX",
+      "cCredit": "3",
+      "cDepartment": "XXXX",
+      "preReq": "None",
+      "coReq": "None"
+    },
+    /* Freshman Year - Spring */
+    "COMP1020": {
+      "cName": "Computing II",
+      "cNum": "1020",
+      "cCredit": "3",
+      "cDepartment": "COMP",
+      "preReq": "COMP1010",
+      "coReq": "COMP1040L"
+    },
+    "COMP1040L": {
+      "cName": "Computing II Lab",
+      "cNum": "1040L",
+      "cCredit": "1",
+      "cDepartment": "COMP",
+      "preReq": "None",
+      "coReq": "COMP1020"
+    },
+    "MATH1320": {
+      "cName": "Calculus II",
+      "cNum": "1320",
+      "cCredit": "4",
+      "cDepartment": "MATH",
+      "preReq": "MATH1310",
+      "coReq": "None"
+    },
+    "ENGL1020": {
+      "cName": "College Writing II",
+      "cNum": "1020",
+      "cCredit": "3",
+      "cDepartment": "ENGL",
+      "preReq": "ENGL1010",
+      "coReq": "None"
+    },
+    "XXXXXXXX": {
+      "cName": "Arts and Humanities Elective",
+      "cNum": "XXXX",
+      "cCredit": "3",
+      "cDepartment": "XXXX",
+      "preReq": "None",
+      "coReq": "None"
+    },
+    /* Sophomore Year - Fall */
+    "COMP2010": {
+      "cName": "Computing III",
+      "cNum": "2010",
+      "cCredit": "3",
+      "cDepartment": "COMP",
+      "preReq": "COMP1020",
+      "coReq": "COMP2010L"
+    },
+    "COMP2010L": {
+      "cName": "Computing III Lab",
+      "cNum": "2010L",
+      "cCredit": "1",
+      "cDepartment": "COMP",
+      "preReq": "None",
+      "coReq": "COMP2010"
+    },
+    "COMP2030": {
+      "cName": "Assembly Language Programming",
+      "cNum": "2030",
+      "cCredit": "3",
+      "cDepartment": "COMP",
+      "preReq": "COMP1020",
+      "coReq": "COMP2030L"
+    },
+    "COMP2030L": {
+      "cName": "Assembly Language Programming Lab",
+      "cNum": "2030L",
+      "cCredit": "1",
+      "cDepartment": "COMP",
+      "preReq": "COMP1020",
+      "coReq": "COMP2030"
+    },
+    "MATH2190": {
+      "cName": "Discrete Structures I",
+      "cNum": "2190",
+      "cCredit": "3",
+      "cDepartment": "MATH",
+      "preReq": "MATH1310",
+      "coReq": "None"
+    },
+    "EECE2650": {
+      "cName": "Logic Design",
+      "cNum": "2650",
+      "cCredit": "3",
+      "cDepartment": "EECE",
+      "preReq": "COMP1020",
+      "coReq": "None"
+    },
+    /* Sophomore Year - Spring */
+    "COMP2040": {
+      "cName": "Computing IV",
+      "cNum": "2040",
+      "cCredit": "3",
+      "cDepartment": "COMP",
+      "preReq": "COMP2010",
+      "coReq": "None"
+    },
+    "ENGL2200": {
+      "cName": "Oral & Written Communications for CS",
+      "cNum": "2200",
+      "cCredit": "3",
+      "cDepartment": "ENGL",
+      "preReq": "ENGL1020",
+      "coReq": "None"
+    },
+    "MATH3220": {
+      "cName": "Discrete Structures II",
+      "cNum": "3220",
+      "cCredit": "3",
+      "cDepartment": "MATH",
+      "preReq": "MATH2190",
+      "coReq": "None"
+    },
+    "MATH3860": {
+      "cName": "Probabiliy & Statistics I",
+      "cNum": "3860",
+      "cCredit": "3",
+      "cDepartment": "MATH",
+      "preReq": "MATH1320",
+      "coReq": "None"
+    },
+    "XXXXXXXX": {
+      "cName": "Natural Science with Lab",
+      "cNum": "XXXX",
+      "cCredit": "4",
+      "cDepartment": "XXXX",
+      "preReq": "None",
+      "coReq": "None"
+    },
+    /* Junior Year - Fall */
+    "COMP3040": {
+      "cName": "Foundations of Computer Science",
+      "cNum": "3040",
+      "cCredit": "3",
+      "cDepartment": "COMP",
+      "preReq": "COMP1020, MATH3220",
+      "coReq": "None"
+    },
+    "COMP3050": {
+      "cName": "Computer Architecture",
+      "cNum": "3050",
+      "cCredit": "3",
+      "cDepartment": "COMP",
+      "preReq": "EECE2650, COMP1020, COMP2030",
+      "coReq": "None"
+    },
+    "XXXXXXXX": {
+      "cName": "Natural Science with Lab",
+      "cNum": "XXXX",
+      "cCredit": "4",
+      "cDepartment": "XXXX",
+      "preReq": "None",
+      "coReq": "None"
+    },
+    "XXXXXXXX": {
+      "cName": "CS Ethics",
+      "cNum": "XXXX",
+      "cCredit": "3",
+      "cDepartment": "XXXX",
+      "preReq": "None",
+      "coReq": "None"
+    },
+    "XXXXXXXX": {
+      "cName": "Free Elective",
+      "cNum": "XXXX",
+      "cCredit": "3",
+      "cDepartment": "XXXX",
+      "preReq": "None",
+      "coReq": "None"
+    },
+    /* Junior Year - Spring */
+    "COMP3010": {
+      "cName": "Organization of Programming Languages",
+      "cNum": "3010",
+      "cCredit": "3",
+      "cDepartment": "COMP"
+    },
+    "COMP3080": {
+      "cName": "Introduction to Operating Systems",
+      "cNum": "3080",
+      "cCredit": "3",
+      "cDepartment": "COMP"
+    },
+    "XXXXXXXX": {
+      "cName": "Natural Science with Lab",
+      "cNum": "XXXX",
+      "cCredit": "4",
+      "cDepartment": "XXXX"
+    },
+    "XXXXXXXX": {
+      "cName": "Social Science Elective",
+      "cNum": "XXXX",
+      "cCredit": "3",
+      "cDepartment": "XXXX"
+    },
+    "XXXXXXXX": {
+      "cName": "Free Elective",
+      "cNum": "XXXX",
+      "cCredit": "3",
+      "cDepartment": "XXXX"
+    },
+    /* Senior Year - Fall */
+    "COMP4040": {
+      "cName": "Analysis of Algorithms",
+      "cNum": "4040",
+      "cCredit": "3",
+      "cDepartment": "COMP"
+    },
+    "COMPXXXX": {
+      "cName": "Project Course I",
+      "cNum": "XXXX",
+      "cCredit": "3",
+      "cDepartment": "COMP"
+    },
+    "COMPXXXX": {
+      "cName": "Computer Science Elective",
+      "cNum": "XXXX",
+      "cCredit": "3",
+      "cDepartment": "COMP"
+    },
+    "XXXXXXXX": {
+      "cName": "Technical Elective",
+      "cNum": "XXXX",
+      "cCredit": "3",
+      "cDepartment": "XXXX"
+    },
+    "XXXXXXXX": {
+      "cName": "Social Sciences Elective",
+      "cNum": "XXXX",
+      "cCredit": "3",
+      "cDepartment": "XXXX"
+    },
+    /* Senior Year - Spring */
+    "COMPXXXX": {
+      "cName": "Project Course II",
+      "cNum": "XXXX",
+      "cCredit": "3",
+      "cDepartment": "COMP"
+    },
+    "COMPXXXX": {
+      "cName": "Computer Science Elective",
+      "cNum": "XXXX",
+      "cCredit": "3",
+      "cDepartment": "COMP"
+    },
+    "XXXXXXXX": {
+      "cName": "Technical Elective",
+      "cNum": "XXXX",
+      "cCredit": "3",
+      "cDepartment": "XXXX"
+    },
+    "XXXXXXXX": {
+      "cName": "Free Elective",
+      "cNum": "XXXX",
+      "cCredit": "3",
+      "cDepartment": "XXXX"
+    },
+    "XXXXXXXX": {
+      "cName": "Free Elective",
+      "cNum": "XXXX",
+      "cCredit": "3",
+      "cDepartment": "XXXX"
+    },
+  }
+}
