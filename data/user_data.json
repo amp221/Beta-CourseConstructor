@@ -1,0 +1,80 @@
+{
+  "user_info":{
+    "userName": "new_user@student.uml.edu",
+    "userPassword": "password",
+    "userFirst": "John",
+    "userLast": "Smith",
+    "userMajor": "Computer Science | General",
+    "advisor": "Some Guy",
+    "advisorEmail":"Some_Guy@uml.edu",
+  },
+  
+  // Freshman Year - Fall 
+  "user_courses": {
+    "COMP1010": "required",
+    "COMP1030L": "required",
+    "MATH1310": "required",
+    "ENGL1010": "required",
+    // update elect names 
+    "SSEL0001": "required",
+    
+    
+    // Freshman Year - Spring
+    "COMP1020": "required",
+    "COMP1040L": "required",
+    "MATH1320": "required",
+    "ENGL1020": "required",
+    "AHEL0001": "required",
+    
+    // Sophomore Year - Fall 
+    "COMP2010": "required",
+    "COMP2010L": "required",
+    "COMP2030": "required",
+    "COMP2030L": "required",
+    "MATH2190": "required",
+    "EECE2650": "required",
+    
+    // Sophomore Year - Spring 
+    "COMP2040": "required",
+    "ENGL2200": "required",
+    "MATH3220": "required",
+    "MATH3860": "required",
+    //update
+    "NSCI0001": "required",
+    "NSCI0001L": "required",
+    
+    // Junior Year - Fall 
+    "COMP3040": "required",
+    "COMP3050": "required",
+    // update 
+    "NSCI0002": "required",
+    "NSCI0002L": "required",
+    "CSET0001": "required",
+    "FREE0001": "required",
+    
+    // Junior Year - Spring 
+    "COMP3010": "required",
+    "COMP3080": "required",
+    // update 
+    "NSCI0003": "required",
+    "NSCI0003L": "required",
+    "SSEL0002": "required",
+    "FREE0002": "required",
+    
+    // Senior Year - Fall
+    "COMP4040": "required",
+    //update
+    "COMPPRO1": "required",
+    "CSEL0001": "required",
+    "TCEL0001": "required",
+    "SSEL0003": "required",
+    
+    // Senior Year - Spring 
+    //update
+    "COMPPRO2": "required",
+    "CSEL0002": "required",
+    "TCEL0002": "required",
+    "FREE0003": "required",
+    "FREE0004": "required",
+  }
+}

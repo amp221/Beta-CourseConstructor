@@ -2,9 +2,15 @@ h2 {
     margin-top: 90px;
 }
 .collapsible.current_semester {
-  outline: solid #0469B1 2px;
-  outline-offset: 3px;
+  /*outline: solid #0469B1 2px;
+  outline-offset: 3px;*/
+  background-color: #0469B1;
+  
 }
+.collapsible.current_semester table {
+  display: inline-table;
+}
+
 .jumbotron {
     background-color: #d3d3d3;
     padding-bottom: 5px;
@@ -29,6 +35,7 @@ button {
 
 .collapsible {
     background-color: #777;
+    opacity: .8;
     color: white;
     cursor: pointer;
     padding: 18px;
@@ -40,7 +47,7 @@ button {
   }
   
   .active, .collapsible:hover {
-    background-color: #0469B1;
+    opacity: 1.0;
   }
   
   .collapsible:after {
