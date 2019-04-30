@@ -50,8 +50,9 @@
         </div>
       </div>
     </div>
-
-
+    
+    
+   
     <div class="container semesters">
       <div class="row">
 
@@ -66,82 +67,87 @@
             <p class="advisor-email">Email: some_guy@uml.edu</p>
           </div>
         </div>
-        <!-- freshman fall
-      Freshman Year - Fall */
-"courses": {
-"COMP1010": {
-"cName": "Computing I",
-"cNum": "1010",
-"cCredit": "3",
-"cDepartment": "COMP"
-},
-"COMP1030L": {
-"cName": "Computing I Lab",
-"cNum": "1030L",
-"cCredit": "1",
-"cDepartment": "COMP"
-},
-"MATH1310": {
-"cName": "Calculus I",
-"cNum": "1310",
-"cCredit": "4",
-"cDepartment": "MATH"
-},
-"ENGL1010": {
-"cName": "College Writing I",
-"cNum": "1010",
-"cCredit": "3",
-"cDepartment": "ENGL"
-},
-"XXXXXXXX": {
-"cName": "Social Science Elective",
-"cNum": "XXXX",
-"cCredit": "3",
-"cDepartment": "XXXX"
-},
-      
-      -->
+       
         <div class="container col-sm-8">
 
           <button class="collapsible">Fall 2019</button>
-          <div class="content">
+          <div class="content" data-toggle="collapse show" aria-expanded="true"> 
             <table class="table">
               <tr>
                 <th>Class</th>
                 <th>Status</th>
+                
                 <th>Credits</th>
+
               </tr>
               <tr>
-                <td>COMP1010 - Computing I</td>
-                <td>complete</td>
+                <td>
+                  <a href="#" title="Prereq. & Coreq." data-toggle="popover" data-trigger="hover focus" 
+                  data-content="insert">COMP1010 - Computing I</a>
+                </td>
+                <td>
+                  <select>
+                    <option value="completed">completed</option>
+                    <option value="current">current</option>
+                    <option value="required">required</option>
+                  </select>
+                </td>
                 <td>3</td>
               </tr>
               <tr>
                 <td>
-                  COMP1030L - Computing I Lab
+                  <a href="#" title= "Prereq. & Coreq." data-toggle="popover" data-trigger="hover focus" 
+                  data-content="insert">COMP1030L - Computing I Lab</a>
                 </td>
-                <td>complete</td>
+                <td>
+                  <select>
+                    <option value="completed">completed</option>
+                    <option value="current">current</option>
+                    <option value="required">required</option>
+                  </select>
+              </td>
                 <td>1</td>
               </tr>
               <tr>
                 <td>
-                  MATH1310 - Calculus I
+                  <a href="#" title= "Prereq. & Coreq." data-toggle="popover" data-trigger="hover focus" 
+                  data-content="insert">MATH1310 - Calculus I</a>
                 </td>
-                <td>complete</td>
+                <td>
+                  <select>
+                    <option value="completed">completed</option>
+                    <option value="current">current</option>
+                    <option value="required">required</option>
+                  </select>
+                </td>
                 <td>4</td>
               </tr>
               <tr>
                 <td>
-                  ENGL1010 - College Writing I
+                  <a href="#" title="Prereq. & Coreq." data-toggle="popover" data-trigger="hover focus" 
+                  data-content="insert">ENGL1010 - College Writing I</a>
                 </td>
-                <td>complete</td>
+                <td>
+                  <select>
+                    <option value="completed">completed</option>
+                    <option value="current">current</option>
+                    <option value="required">required</option>
+                  </select>
+                </td>
                 <td>3</td>
               </tr>
               <tr>
                 <td>
-                  Social Science Elective
+                  <a href="#" title="Prereq. & Coreq." data-toggle="popover" data-trigger="hover focus" 
+                  data-content="insert"> Social Science Elective </a>
                 </td>
-                <td>complete</td>
+                <td>
+                  <select>
+                    <option value="completed">completed</option>
+                    <option value="current">current</option>
+                    <option value="required">required</option>
+                  </select>
+                </td>
                 <td>3</td>
               </tr>
             </table>
@@ -151,44 +157,11 @@
                           <form form action="update.html" method="GET" class="update-link"> 
                           <button class="btn btn-sm btn-primary " type="submit">update</button> 
                           </form>
-
                         -->
               <a class="update-link" href="update.html">Update</a>
             </div>
           </div>
-          <!--
-                    /* Freshman Year - Spring */
-"COMP1020": {
-"cName": "Computing II",
-"cNum": "1020",
-"cCredit": "3",
-"cDepartment": "COMP"
-},
-"COMP1040L": {
-"cName": "Computing II Lab",
-"cNum": "1040L",
-"cCredit": "1",
-"cDepartment": "COMP"
-},
-"MATH1320": {
-"cName": "Calculus II",
-"cNum": "1320",
-"cCredit": "4",
-"cDepartment": "MATH"
-},
-"ENGL1020": {
-"cName": "College Writing II",
-"cNum": "1020",
-"cCredit": "3",
-"cDepartment": "ENGL"
-},
-"XXXXXXXX": {
-"cName": "Arts and Humanities Elective",
-"cNum": "XXXX",
-"cCredit": "3",
-"cDepartment": "XXXX"
-},
-                  -->
+         
           <button class="collapsible ">Spring 2020</button>
           <div class="content">
             <table class="table">
@@ -201,33 +174,63 @@
                 <td>
                   COMP1020 - Computing II
                 </td>
-                <td>complete</td>
+                <td>
+                  <select>
+                    <option value="completed">completed</option>
+                    <option value="current">current</option>
+                    <option value="required">required</option>
+                  </select>
+                </td>
                 <td>3</td>
               </tr>
               <tr>
                 <td>
                   COMP1040L - Computing II Lab
                 </td>
-                <td>complete</td>
+                <td>
+                  <select>
+                    <option value="completed">completed</option>
+                    <option value="current">current</option>
+                    <option value="required">required</option>
+                  </select>
+                </td>
                 <td>1</td>
               </tr>
               <tr>
                 <td>
                   MATH1320 - Calculus II
                 </td>
-                <td>complete</td>
+                <td>
+                  <select>
+                    <option value="completed">completed</option>
+                    <option value="current">current</option>
+                    <option value="required">required</option>
+                  </select>
+                </td>
                 <td>4</td>
               </tr>
               <tr>
                 <td>
                   ENGL1020 - College Writing II
                 </td>
-                <td>complete</td>
+                <td>
+                  <select>
+                    <option value="completed">completed</option>
+                    <option value="current">current</option>
+                    <option value="required">required</option>
+                  </select>
+                </td>
                 <td>3</td>
               </tr>
               <tr>
                 <td>Arts and Humanities Elective</td>
-                <td>complete</td>
+                <td>
+                  <select>
+                    <option value="completed">completed</option>
+                    <option value="current">current</option>
+                    <option value="required">required</option>
+                  </select>
+                </td>
                 <td>3</td>
               </tr>
             </table>
@@ -235,46 +238,8 @@
               <a class="update-link" href="update.html">Update</a>
             </div>
           </div>
-          <!--
-                /* Sophomore Year - Fall */
-"COMP2010": {
-"cName": "Computing III",
-"cNum": "2010",
-"cCredit": "3",
-"cDepartment": "COMP"
-},
-"COMP2010L": {
-"cName": "Computing III Lab",
-"cNum": "2010L",
-"cCredit": "1",
-"cDepartment": "COMP"
-},
-"COMP2030": {
-"cName": "Assembly Language Programming",
-"cNum": "2030",
-"cCredit": "3",
-"cDepartment": "COMP"
-},
-"COMP2030L": {
-"cName": "Assembly Language Programming Lab",
-"cNum": "2030L",
-"cCredit": "1",
-"cDepartment": "COMP"
-},
-"MATH3210": {
-"cName": "Discrete Structures I",
-"cNum": "3210",
-"cCredit": "3",
-"cDepartment": "MATH"
-},
-"EECE2650": {
-"cName": "Logic Design",
-"cNum": "2650",
-"cCredit": "3",
-"cDepartment": "EECE"
-},
-              -->
-          <button class="collapsible current_semester" data-toggle="active">Fall 2020</button>
+          
+          <button class="collapsible current_semester" data-toggle="active collapse show">Fall 2020</button>
           <div class="content">
             <table class="table">
               <tr>
@@ -286,21 +251,39 @@
                 <td>
                   COMP2010 - Computing III
                 </td>
-                <td>current</td>
+                <td>
+                  <select>
+                    <option value="completed">completed</option>
+                    <option selected value="current">current</option>
+                    <option value="required">required</option>
+                  </select>
+                </td>
                 <td>3</td>
               </tr>
               <tr>
                 <td>
                   COMP2010L - Computing III Lab
                 </td>
-                <td>current</td>
+                <td>
+                  <select>
+                    <option value="completed">completed</option>
+                    <option selected value="current">current</option>
+                    <option value="required">required</option>
+                  </select>
+                </td>
                 <td>1</td>
               </tr>
               <tr>
                 <td>
                   COMP2030 - Assembly Language Programming
                 </td>
-                <td>current</td>
+                <td>
+                  <select>
+                    <option value="completed">completed</option>
+                    <option selected value="current">current</option>
+                    <option value="required">required</option>
+                  </select>
+                </td>
                 <td>3</td>
 
               </tr>
@@ -308,21 +291,39 @@
                 <td>
                   COMP2030L - Assembly Language Programming Lab
                 </td>
-                <td>current</td>
+                <td>
+                  <select>
+                    <option value="completed">completed</option>
+                    <option selected value="current">current</option>
+                    <option value="required">required</option>
+                  </select>
+                </td>
                 <td>1</td>
               </tr>
               <tr>
                 <td>
                   MATH3210 - Discrete Structures I
                 </td>
-                <td>current</td>
+                <td>
+                  <select>
+                    <option value="completed">completed</option>
+                    <option selected value="current">current</option>
+                    <option value="required">required</option>
+                  </select>
+                </td>
                 <td>3</td>
               </tr>
               <tr>
                 <td>
                   EECE2650 - Logic Design
                 </td>
-                <td>current</td>
+                <td>
+                  <select>
+                    <option value="completed">completed</option>
+                    <option selected value="current">current</option>
+                    <option value="required">required</option>
+                  </select>
+                </td>
                 <td>3</td>
               </tr>
             </table>
@@ -342,22 +343,46 @@
               </tr>
               <tr>
                 <td>Class A</td>
-                <td>required</td>
+                <td>
+                  <select>
+                    <option value="completed">completed</option>
+                    <option value="current">current</option>
+                    <option selected value="required">required</option>
+                  </select>
+                </td>
                 <td>3</td>
               </tr>
               <tr>
                 <td>Class B</td>
-                <td>required</td>
+                <td>
+                  <select>
+                    <option value="completed">completed</option>
+                    <option value="current">current</option>
+                    <option selected value="required">required</option>
+                  </select>
+                </td>
                 <td>3</td>
               </tr>
               <tr>
                 <td>Class C</td>
-                <td>required</td>
+                <td>
+                  <select>
+                    <option value="completed">completed</option>
+                    <option value="current">current</option>
+                    <option selected value="required">required</option>
+                  </select>
+                </td>
                 <td>3</td>
               </tr>
               <tr>
                 <td>Class D</td>
-                <td>required</td>
+                <td>
+                  <select>
+                    <option value="completed">completed</option>
+                    <option value="current">current</option>
+                    <option selected value="required">required</option>
+                  </select>
+                </td>
                 <td>3</td>
               </tr>
             </table>
@@ -377,22 +402,46 @@
               </tr>
               <tr>
                 <td>Class A</td>
-                <td>required</td>
+                <td>
+                  <select>
+                    <option value="completed">completed</option>
+                    <option value="current">current</option>
+                    <option selected value="required">required</option>
+                  </select>
+                </td>
                 <td>3</td>
               </tr>
               <tr>
                 <td>Class B</td>
-                <td>required</td>
+                <td>
+                  <select>
+                    <option value="completed">completed</option>
+                    <option value="current">current</option>
+                    <option selected value="required">required</option>
+                  </select>
+                </td>
                 <td>3</td>
               </tr>
               <tr>
                 <td>Class C</td>
-                <td>required</td>
+                <td>
+                  <select>
+                    <option value="completed">completed</option>
+                    <option value="current">current</option>
+                    <option selected value="required">required</option>
+                  </select>
+                </td>
                 <td>3</td>
               </tr>
               <tr>
                 <td>Class D</td>
-                <td>required</td>
+                <td>
+                  <select>
+                    <option value="completed">completed</option>
+                    <option value="current">current</option>
+                    <option selected value="required">required</option>
+                  </select>
+                </td>
                 <td>3</td>
               </tr>
             </table>
@@ -411,22 +460,46 @@
               </tr>
               <tr>
                 <td>Class A</td>
-                <td>required</td>
+                <td>
+                  <select>
+                    <option value="completed">completed</option>
+                    <option value="current">current</option>
+                    <option selected value="required">required</option>
+                  </select>
+                </td>
                 <td>3</td>
               </tr>
               <tr>
                 <td>Class B</td>
-                <td>required</td>
+                <td>
+                  <select>
+                    <option value="completed">completed</option>
+                    <option value="current">current</option>
+                    <option selected value="required">required</option>
+                  </select>
+                </td>
                 <td>3</td>
               </tr>
               <tr>
                 <td>Class C</td>
-                <td>required</td>
+                <td>
+                  <select>
+                    <option value="completed">completed</option>
+                    <option value="current">current</option>
+                    <option selected value="required">required</option>
+                  </select>
+                </td>
                 <td>3</td>
               </tr>
               <tr>
                 <td>Class D</td>
-                <td>required</td>
+                <td>
+                  <select>
+                    <option value="completed">completed</option>
+                    <option value="current">current</option>
+                    <option selected value="required">required</option>
+                  </select>
+                </td>
                 <td>3</td>
               </tr>
             </table>
@@ -444,22 +517,46 @@
               </tr>
               <tr>
                 <td>Class A</td>
-                <td>required</td>
+                <td>
+                  <select>
+                    <option value="completed">completed</option>
+                    <option value="current">current</option>
+                    <option selected value="required">required</option>
+                  </select>
+                </td>
                 <td>3</td>
               </tr>
               <tr>
                 <td>Class B</td>
-                <td>required</td>
+                <td>
+                  <select>
+                    <option value="completed">completed</option>
+                    <option value="current">current</option>
+                    <option selected value="required">required</option>
+                  </select>
+                </td>
                 <td>3</td>
               </tr>
               <tr>
                 <td>Class C</td>
-                <td>required</td>
+                <td>
+                  <select>
+                    <option value="completed">completed</option>
+                    <option value="current">current</option>
+                    <option selected value="required">required</option>
+                  </select>
+                </td>
                 <td>3</td>
               </tr>
               <tr>
                 <td>Class D</td>
-                <td>required</td>
+                <td>
+                  <select>
+                    <option value="completed">completed</option>
+                    <option value="current">current</option>
+                    <option selected value="required">required</option>
+                  </select>
+                </td>
                 <td>3</td>
               </tr>
             </table>
@@ -477,22 +574,46 @@
               </tr>
               <tr>
                 <td>Class A</td>
-                <td>required</td>
+                <td>
+                  <select>
+                    <option value="completed">completed</option>
+                    <option value="current">current</option>
+                    <option selected value="required">required</option>
+                  </select>
+                </td>
                 <td>3</td>
               </tr>
               <tr>
                 <td>Class B</td>
-                <td>required</td>
+                <td>
+                  <select>
+                    <option value="completed">completed</option>
+                    <option value="current">current</option>
+                    <option selected value="required">required</option>
+                  </select>
+                </td>
                 <td>3</td>
               </tr>
               <tr>
                 <td>Class C</td>
-                <td>required</td>
+                <td>
+                  <select>
+                    <option value="completed">completed</option>
+                    <option value="current">current</option>
+                    <option selected value="required">required</option>
+                  </select>
+                </td>
                 <td>3</td>
               </tr>
               <tr>
                 <td>Class D</td>
-                <td>required</td>
+                <td>
+                  <select>
+                    <option value="completed">completed</option>
+                    <option value="current">current</option>
+                    <option selected value="required">required</option>
+                  </select>
+                </td>
                 <td>3</td>
               </tr>
             </table>
@@ -511,7 +632,6 @@
       var coll = document.getElementsByTagName("button");
       //var coll = document.getElementsByClassName("collapsible");
       var i;
-
       for (i = 0; i < coll.length; i++) {
         coll[i].addEventListener("click", function () {
           this.classList.toggle("active");
@@ -523,9 +643,13 @@
           }
         });
       }
-               
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover();
+          });
+        
     </script>
   </body>
+
 </html>
 <!--
 /* List of courses to take to fulfill CS curriculum by semester

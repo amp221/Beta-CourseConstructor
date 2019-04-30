@@ -11,6 +11,10 @@ h2 {
   display: inline-table;
 }
 
+.table {
+  overflow: hidden;
+
+} 
 .jumbotron {
     background-color: #d3d3d3;
     padding-bottom: 5px;
@@ -28,7 +32,9 @@ button {
     padding: 5px;
     border: solid #d3d3d3 1px;
 }
-
+.profile-semesters {
+  margin-bottom: 100px;
+}
 .semesters {
     margin-bottom: 100px;  
 }
@@ -44,6 +50,7 @@ button {
     text-align: left;
     outline: none;
     font-size: 15px;
+    
   }
   
   .active, .collapsible:hover {
@@ -56,16 +63,25 @@ button {
     font-weight: bold;
     float: right;
     margin-left: 5px;
+ 
   }
   
   .active:after {
     content: "\2212";
   }
-
+  /*
+ .content {
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+  }
+  */
   .content {
+    
     padding: 0 18px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     background-color: #f1f1f1;
   }
+  
