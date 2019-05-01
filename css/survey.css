@@ -3,11 +3,9 @@ form .title {
     height: auto;
     background-color: #0469B1;
 }
-.class-search {
-    border: solid #d3d3d3 2px;
-}
-.class-selected {
-    border: solid #d3d3d3 2px;
+.survey-content 
+{
+    margin-bottom: 100px;
 }
 h2 {
     margin-top: 90px;
@@ -16,4 +14,13 @@ h2 {
     background-color: #d3d3d3;
     padding-bottom: 5px;
     border-radius: 3px;
+}
+button {
+    margin-top: 20px;
+    font-weight: bolder;
+}
+.btn {	
+	background: #0469B1;
+	border: unset;
+	border-radius: 3px;
 }

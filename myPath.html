@@ -12,6 +12,7 @@
     <!-- <link rel="stylesheet" type="text/css" href="bootstrap.min.css"> -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/myPath.css">
+    <script src="js/myPath.js"></script>
   </head>
 
   <body>
@@ -70,7 +71,7 @@
        
         <div class="container col-sm-8">
 
-          <button class="collapsible">Fall 2019</button>
+          <button class="collapsible">Freshman Year - Fall</button>
           <div class="content" data-toggle="collapse show" aria-expanded="true"> 
             <table class="table">
               <tr>
@@ -86,7 +87,7 @@
                   data-content="insert">COMP1010 - Computing I</a>
                 </td>
                 <td>
-                  <select>
+                  <select class = "COMP1010">
                     <option value="completed">completed</option>
                     <option value="current">current</option>
                     <option value="required">required</option>
@@ -100,7 +101,7 @@
                   data-content="insert">COMP1030L - Computing I Lab</a>
                 </td>
                 <td>
-                  <select>
+                  <select class = "COMP1030L">
                     <option value="completed">completed</option>
                     <option value="current">current</option>
                     <option value="required">required</option>
@@ -114,7 +115,7 @@
                   data-content="insert">MATH1310 - Calculus I</a>
                 </td>
                 <td>
-                  <select>
+                  <select class = " MATH1310 ">
                     <option value="completed">completed</option>
                     <option value="current">current</option>
                     <option value="required">required</option>
@@ -128,7 +129,7 @@
                   data-content="insert">ENGL1010 - College Writing I</a>
                 </td>
                 <td>
-                  <select>
+                  <select class = "ENGL1010">
                     <option value="completed">completed</option>
                     <option value="current">current</option>
                     <option value="required">required</option>
@@ -139,10 +140,10 @@
               <tr>
                 <td>
                   <a href="#" title="Prereq. & Coreq." data-toggle="popover" data-trigger="hover focus" 
-                  data-content="insert"> Social Science Elective </a>
+                  data-content="insert">SSEL0001 - Social Science Elective </a>
                 </td>
                 <td>
-                  <select>
+                  <select class="SSEL0001">
                     <option value="completed">completed</option>
                     <option value="current">current</option>
                     <option value="required">required</option>
@@ -162,7 +163,7 @@
             </div>
           </div>
          
-          <button class="collapsible ">Spring 2020</button>
+          <button class="collapsible ">Freshman Year - Spring</button>
           <div class="content">
             <table class="table">
               <tr>
@@ -175,7 +176,7 @@
                   COMP1020 - Computing II
                 </td>
                 <td>
-                  <select>
+                  <select class="COMP1020">
                     <option value="completed">completed</option>
                     <option value="current">current</option>
                     <option value="required">required</option>
@@ -188,7 +189,7 @@
                   COMP1040L - Computing II Lab
                 </td>
                 <td>
-                  <select>
+                  <select class="COMP1040L">
                     <option value="completed">completed</option>
                     <option value="current">current</option>
                     <option value="required">required</option>
@@ -201,7 +202,7 @@
                   MATH1320 - Calculus II
                 </td>
                 <td>
-                  <select>
+                  <select class="MATH1320">
                     <option value="completed">completed</option>
                     <option value="current">current</option>
                     <option value="required">required</option>
@@ -214,7 +215,7 @@
                   ENGL1020 - College Writing II
                 </td>
                 <td>
-                  <select>
+                  <select class="ENGL1020">
                     <option value="completed">completed</option>
                     <option value="current">current</option>
                     <option value="required">required</option>
@@ -223,9 +224,11 @@
                 <td>3</td>
               </tr>
               <tr>
-                <td>Arts and Humanities Elective</td>
+                <td> 
+                  AHEL0001 - Arts and Humanities Elective
+                </td>
                 <td>
-                  <select>
+                  <select class= "AHEL0001">
                     <option value="completed">completed</option>
                     <option value="current">current</option>
                     <option value="required">required</option>
@@ -239,7 +242,7 @@
             </div>
           </div>
           
-          <button class="collapsible current_semester" data-toggle="active collapse show">Fall 2020</button>
+          <button class="collapsible current_semester" data-toggle="active collapse show">Sophomore Year - Fall</button>
           <div class="content">
             <table class="table">
               <tr>
@@ -252,7 +255,7 @@
                   COMP2010 - Computing III
                 </td>
                 <td>
-                  <select>
+                  <select class="COMP2010">
                     <option value="completed">completed</option>
                     <option selected value="current">current</option>
                     <option value="required">required</option>
@@ -265,7 +268,7 @@
                   COMP2010L - Computing III Lab
                 </td>
                 <td>
-                  <select>
+                  <select class="COMP2010L">
                     <option value="completed">completed</option>
                     <option selected value="current">current</option>
                     <option value="required">required</option>
@@ -278,7 +281,7 @@
                   COMP2030 - Assembly Language Programming
                 </td>
                 <td>
-                  <select>
+                  <select class="COMP2030">
                     <option value="completed">completed</option>
                     <option selected value="current">current</option>
                     <option value="required">required</option>
@@ -292,7 +295,7 @@
                   COMP2030L - Assembly Language Programming Lab
                 </td>
                 <td>
-                  <select>
+                  <select class="COMP2030L">
                     <option value="completed">completed</option>
                     <option selected value="current">current</option>
                     <option value="required">required</option>
@@ -305,7 +308,7 @@
                   MATH3210 - Discrete Structures I
                 </td>
                 <td>
-                  <select>
+                  <select class="MATH3210">
                     <option value="completed">completed</option>
                     <option selected value="current">current</option>
                     <option value="required">required</option>
@@ -318,7 +321,7 @@
                   EECE2650 - Logic Design
                 </td>
                 <td>
-                  <select>
+                  <select class="EECE2650">
                     <option value="completed">completed</option>
                     <option selected value="current">current</option>
                     <option value="required">required</option>
@@ -332,8 +335,10 @@
             </div>
           </div>
 
+       
 
-          <button class="collapsible">Spring 2021</button>
+       
+          <button class="collapsible">Sophomore Year - Spring</button>
           <div class="content">
             <table class="table">
               <tr>
@@ -342,9 +347,9 @@
                 <th>Credits</th>
               </tr>
               <tr>
-                <td>Class A</td>
+                <td>COMP2040 - Computing IV</td>
                 <td>
-                  <select>
+                  <select class="COMP2040">
                     <option value="completed">completed</option>
                     <option value="current">current</option>
                     <option selected value="required">required</option>
@@ -353,9 +358,9 @@
                 <td>3</td>
               </tr>
               <tr>
-                <td>Class B</td>
+                <td> ENGL2200 - Oral & Written Communications for CS </td>
                 <td>
-                  <select>
+                  <select class="ENGL2200">
                     <option value="completed">completed</option>
                     <option value="current">current</option>
                     <option selected value="required">required</option>
@@ -364,9 +369,9 @@
                 <td>3</td>
               </tr>
               <tr>
-                <td>Class C</td>
+                <td> MATH3220 - Discrete Structures II </td>
                 <td>
-                  <select>
+                  <select class="MATH3220">
                     <option value="completed">completed</option>
                     <option value="current">current</option>
                     <option selected value="required">required</option>
@@ -375,9 +380,20 @@
                 <td>3</td>
               </tr>
               <tr>
-                <td>Class D</td>
+                <td>MATH3860 - Probabiliy & Statistics I</td>
                 <td>
-                  <select>
+                  <select class="MATH3860">
+                    <option value="completed">completed</option>
+                    <option value="current">current</option>
+                    <option selected value="required">required</option>
+                  </select>
+                </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td> NSCI0001 - Natural Science with Lab </td>
+                <td>
+                  <select class= "NSCI0001">
                     <option value="completed">completed</option>
                     <option value="current">current</option>
                     <option selected value="required">required</option>
@@ -392,7 +408,7 @@
           </div>
 
 
-          <button class="collapsible">Fall 2021</button>
+          <button class="collapsible">Junior Year - Fall</button>
           <div class="content">
             <table class="table">
               <tr>
@@ -401,9 +417,9 @@
                 <th>Credits</th>
               </tr>
               <tr>
-                <td>Class A</td>
+                <td> COMP3040 - Foundations of Computer Science </td>
                 <td>
-                  <select>
+                  <select class="COMP3040">
                     <option value="completed">completed</option>
                     <option value="current">current</option>
                     <option selected value="required">required</option>
@@ -412,9 +428,9 @@
                 <td>3</td>
               </tr>
               <tr>
-                <td>Class B</td>
+                <td> COMP3050 - Computer Architecture </td>
                 <td>
-                  <select>
+                  <select class="COMP3050">
                     <option value="completed">completed</option>
                     <option value="current">current</option>
                     <option selected value="required">required</option>
@@ -423,9 +439,11 @@
                 <td>3</td>
               </tr>
               <tr>
-                <td>Class C</td>
                 <td>
-                  <select>
+                  NSCI0002 - Natural Science with Lab
+                </td>
+                <td>
+                  <select class="XXXXXXXX">
                     <option value="completed">completed</option>
                     <option value="current">current</option>
                     <option selected value="required">required</option>
@@ -434,9 +452,171 @@
                 <td>3</td>
               </tr>
               <tr>
-                <td>Class D</td>
                 <td>
-                  <select>
+                  CSET0001- CS Ethics
+                </td>
+                <td>
+                  <select class="CSET0001">
+                    <option value="completed">completed</option>
+                    <option value="current">current</option>
+                    <option selected value="required">required</option>
+                  </select>
+                </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td> 
+                  FREE0001 - Free Elective 
+                </td>
+                <td>
+                  <select class="FREE0001">
+                    <option value="completed">completed</option>
+                    <option value="current">current</option>
+                    <option selected value="required">required</option>
+                  </select>
+                </td>
+                <td>3</td>
+              </tr>
+             
+            </table>
+            <div class="panel-footer">
+              <a class="update-link" href="update.html">Update</a>
+            </div>
+          </div>
+
+
+          <button class="collapsible">Junior Year - Spring</button>
+          <div class="content">
+            <table class="table">
+              <tr>
+                <th>Class</th>
+                <th>Status</th>
+                <th>Credits</th>
+              </tr>
+              <tr>
+                <td>COMP3010 - Organization of Programming Languages</td>
+                <td>
+                  <select class="COMP3010">
+                    <option value="completed">completed</option>
+                    <option value="current">current</option>
+                    <option selected value="required">required</option>
+                  </select>
+                </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>COMP3080 - Introduction to Operating Systems</td>
+                <td>
+                  <select class="COMP3080">
+                    <option value="completed">completed</option>
+                    <option value="current">current</option>
+                    <option selected value="required">required</option>
+                  </select>
+                </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>
+                  NSCI0003 - Natural Science with Lab
+                </td>
+                <td>
+                  <select class="NSCI0003">
+                    <option value="completed">completed</option>
+                    <option value="current">current</option>
+                    <option selected value="required">required</option>
+                  </select>
+                </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>SSEL0002 - Social Science Elective</td>
+                <td>
+                  <select class= "SSEL0002">
+                    <option value="completed">completed</option>
+                    <option value="current">current</option>
+                    <option selected value="required">required</option>
+                  </select>
+                </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td> FREE0002 - Free Elective </td>
+                <td>
+                  <select class="FREE0002">
+                    <option value="completed">completed</option>
+                    <option value="current">current</option>
+                    <option selected value="required">required</option>
+                  </select>
+                </td>
+                <td>3</td>
+              </tr>
+            </table>
+            <div class="panel-footer">
+              <a class="update-link" href="update.html">Update</a>
+            </div>
+          </div>
+          
+
+          <button class="collapsible">Senior Year - Fall</button>
+          <div class="content">
+            <table class="table">
+              <tr>
+                <th>Class</th>
+                <th>Status</th>
+                <th>Credits</th>
+              </tr>
+              <tr>
+                <td>COMP4040 - Analysis of Algorithms</td>
+                <td>
+                  <select class="COMP4040">
+                    <option value="completed">completed</option>
+                    <option value="current">current</option>
+                    <option selected value="required">required</option>
+                  </select>
+                </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>COMPPRO1 - Project Course I</td>
+                <td>
+                  <select class="COMPPRO1">
+                    <option value="completed">completed</option>
+                    <option value="current">current</option>
+                    <option selected value="required">required</option>
+                  </select>
+                </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>COMP0001 - Computer Science Elective</td>
+                <td>
+                  <select class="COMP0001">
+                    <option value="completed">completed</option>
+                    <option value="current">current</option>
+                    <option selected value="required">required</option>
+                  </select>
+                </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>
+                  TCEL0001 - Technical Elective
+                </td>
+                <td>
+                  <select class="TCEL0001">
+                    <option value="completed">completed</option>
+                    <option value="current">current</option>
+                    <option selected value="required">required</option>
+                  </select>
+                </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td> 
+                  SSEL0003 - Social Sciences Elective 
+                </td>
+                <td>
+                  <select class="SSEL0003">
                     <option value="completed">completed</option>
                     <option value="current">current</option>
                     <option selected value="required">required</option>
@@ -450,7 +630,8 @@
             </div>
           </div>
 
-          <button class="collapsible">Spring 2022</button>
+
+          <button class="collapsible"> Senior Year - Spring </button>
           <div class="content">
             <table class="table">
               <tr>
@@ -459,9 +640,9 @@
                 <th>Credits</th>
               </tr>
               <tr>
-                <td>Class A</td>
+                <td> COMPPRO2 - Project Course II </td>
                 <td>
-                  <select>
+                  <select class="COMPPRO2">
                     <option value="completed">completed</option>
                     <option value="current">current</option>
                     <option selected value="required">required</option>
@@ -470,9 +651,11 @@
                 <td>3</td>
               </tr>
               <tr>
-                <td>Class B</td>
                 <td>
-                  <select>
+                  COMP0002 - Computer Science Elective
+                </td>
+                <td>
+                  <select class="COMP0002">
                     <option value="completed">completed</option>
                     <option value="current">current</option>
                     <option selected value="required">required</option>
@@ -481,9 +664,11 @@
                 <td>3</td>
               </tr>
               <tr>
-                <td>Class C</td>
                 <td>
-                  <select>
+                  TCEL0002 - Technical Elective
+                </td>
+                <td>
+                  <select class="TCEL0002">
                     <option value="completed">completed</option>
                     <option value="current">current</option>
                     <option selected value="required">required</option>
@@ -492,33 +677,11 @@
                 <td>3</td>
               </tr>
               <tr>
-                <td>Class D</td>
                 <td>
-                  <select>
-                    <option value="completed">completed</option>
-                    <option value="current">current</option>
-                    <option selected value="required">required</option>
-                  </select>
+                  FREE0003 - Free Elective 
                 </td>
-                <td>3</td>
-              </tr>
-            </table>
-            <div class="panel-footer">
-              <a class="update-link" href="update.html">Update</a>
-            </div>
-          </div>
-          <button class="collapsible">Fall 2022</button>
-          <div class="content">
-            <table class="table">
-              <tr>
-                <th>Class</th>
-                <th>Status</th>
-                <th>Credits</th>
-              </tr>
-              <tr>
-                <td>Class A</td>
                 <td>
-                  <select>
+                  <select class="FREE0003">
                     <option value="completed">completed</option>
                     <option value="current">current</option>
                     <option selected value="required">required</option>
@@ -527,88 +690,11 @@
                 <td>3</td>
               </tr>
               <tr>
-                <td>Class B</td>
-                <td>
-                  <select>
-                    <option value="completed">completed</option>
-                    <option value="current">current</option>
-                    <option selected value="required">required</option>
-                  </select>
+                <td> 
+                  FREE0004 - Free Elective 
                 </td>
-                <td>3</td>
-              </tr>
-              <tr>
-                <td>Class C</td>
                 <td>
-                  <select>
-                    <option value="completed">completed</option>
-                    <option value="current">current</option>
-                    <option selected value="required">required</option>
-                  </select>
-                </td>
-                <td>3</td>
-              </tr>
-              <tr>
-                <td>Class D</td>
-                <td>
-                  <select>
-                    <option value="completed">completed</option>
-                    <option value="current">current</option>
-                    <option selected value="required">required</option>
-                  </select>
-                </td>
-                <td>3</td>
-              </tr>
-            </table>
-            <div class="panel-footer">
-              <a class="update-link" href="update.html">Update</a>
-            </div>
-          </div>
-          <button class="collapsible">Spring 2023</button>
-          <div class="content">
-            <table class="table">
-              <tr>
-                <th>Class</th>
-                <th>Status</th>
-                <th>Credits</th>
-              </tr>
-              <tr>
-                <td>Class A</td>
-                <td>
-                  <select>
-                    <option value="completed">completed</option>
-                    <option value="current">current</option>
-                    <option selected value="required">required</option>
-                  </select>
-                </td>
-                <td>3</td>
-              </tr>
-              <tr>
-                <td>Class B</td>
-                <td>
-                  <select>
-                    <option value="completed">completed</option>
-                    <option value="current">current</option>
-                    <option selected value="required">required</option>
-                  </select>
-                </td>
-                <td>3</td>
-              </tr>
-              <tr>
-                <td>Class C</td>
-                <td>
-                  <select>
-                    <option value="completed">completed</option>
-                    <option value="current">current</option>
-                    <option selected value="required">required</option>
-                  </select>
-                </td>
-                <td>3</td>
-              </tr>
-              <tr>
-                <td>Class D</td>
-                <td>
-                  <select>
+                  <select class="FREE0004">
                     <option value="completed">completed</option>
                     <option value="current">current</option>
                     <option selected value="required">required</option>
@@ -716,6 +802,7 @@ Freshman Year - Fall */
 "cCredit": "3",
 "cDepartment": "XXXX"
 },
+
 /* Sophomore Year - Fall */
 "COMP2010": {
 "cName": "Computing III",
@@ -753,6 +840,7 @@ Freshman Year - Fall */
 "cCredit": "3",
 "cDepartment": "EECE"
 },
+
 /* Sophomore Year - Spring */
 "COMP2040": {
 "cName": "Computing IV",
@@ -784,6 +872,7 @@ Freshman Year - Fall */
 "cCredit": "4",
 "cDepartment": "XXXX"
 },
+
 /* Junior Year - Fall */
 "COMP3040": {
 "cName": "Foundations of Computer Science",
@@ -815,6 +904,7 @@ Freshman Year - Fall */
 "cCredit": "3",
 "cDepartment": "XXXX"
 },
+
 /* Junior Year - Spring */
 "COMP3010": {
 "cName": "Organization of Programming Languages",
@@ -846,6 +936,7 @@ Freshman Year - Fall */
 "cCredit": "3",
 "cDepartment": "XXXX"
 },
+
 /* Senior Year - Fall */
 "COMP4040": {
 "cName": "Analysis of Algorithms",
@@ -877,6 +968,7 @@ Freshman Year - Fall */
 "cCredit": "3",
 "cDepartment": "XXXX"
 },
+
 /* Senior Year - Spring */
 "COMPXXXX": {
 "cName": "Project Course II",

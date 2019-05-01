@@ -1,122 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Course Constructor</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="pinterest" content="nopin">
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <!-- <link rel="stylesheet" type="text/css" href="bootstrap.min.css"> --> 
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="stylesheet" type="text/css" href="css/mySchedule.css">
-</head> 
-<body> 
-  <nav class="navbar navbar-inverse">
-    <div class="container-fluid">     
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <!-- UML logo-->
-        <div class="uml_logo">
-          <a href="https://www.uml.edu/"><img class="img-responsive"      
-          src="images/uml_logo.svg"></a>
-        </div>
-        <!-- Course Cunstroctor-->
-        <h2 class = "navbar-text" style = "color: white"> Course Constructor </h2>
-      </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="home.html">Home</a></li>
-          <li><a href="myPath.html">My Path</a></li>
-          <li class="current"><a href="mySchedule.html">My Schedule</a></li>
-          <li><a href="myElectives.html">My Electives</a></li>
-          <li><a href="signIn.html">Sign Out</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <div class = "row">
-      <div class= "container"> 
-        <div class = "jumbotron"> 
-          <h1> stuff about my Schedule </h1>
-        </div>
-      </div>
-  </div>
-  <div class = "row">
-    <div class = "container">
-        <div class="panel-group">
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <h4 class="panel-title"> 
-                  <p>Spring 2020</p>
-                </h4>
-              </div>
-                <table class = "table">
-                  <tr>
-                      <th>Class</th>
-                      <th>Status</th>
-                      <th>Credits</th>
-                  </tr>
-                    <tr>
-                      <td>
-                        COMP2010 - Computing III
-                      </td>
-                      <td>active</td>
-                      <td>3</td>
-                    </tr>
-                    <tr>
-                      <td>
-                        COMP2010L - Computing III Lab
-                      </td>
-                      <td>active</td>
-                      <td>1</td>
-                    </tr>
-                    <tr>
-                      <td>
-                        COMP2030 - Assembly Language Programming
-                      </td>
-                      <td>active</td>
-                      <td>3</td>
-                    </tr>
-                    <tr>
-                      <td>
-                        COMP2030L - Assembly Language Programming Lab
-                      </td>
-                      <td>active</td>
-                      <td>1</td>
-                    </tr>
-                    <tr>
-                      <td>
-                        MATH3210 - Discrete Structures I
-                      </td>
-                      <td>active</td>
-                      <td>3</td>
-                    </tr>
-                    <tr>
-                      <td>
-                        EECE2650 - Logic Design
-                      </td>
-                      <td>active</td>
-                      <td>3</td>
-                    </tr>
-                </table>
-                <div class="panel-footer">
-                </div>
-              </div>
-            </div>
+  <head>
+    <title>Course Constructor</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!-- <link rel="stylesheet" type="text/css" href="bootstrap.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/survey.css">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- UML logo-->
+          <div class="uml_logo">
+            <a href="https://www.uml.edu/"><img class="img-responsive" src="images/uml_logo.svg"></a>
           </div>
+          <!-- Course Cunstroctor-->
+          <h2 class="navbar-text" style="color: white"> Course Constructor </h2>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="myPath.html">My Path</a></li>
+            <li><a href="mySchedule.html">My Schedule</a></li>
+            <li><a href="myElectives.html">My Electives</a></li>
+            <li><a href="signIn.html">Sign Out</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="row">
+      <div class="container">
+        <div class="jumbotron text-center">
+          <h2>Elective Survey</h2>
+          <p> Your opinions may change as you take more classes. Retake this survey again at any time to see if you
+            results change. </p>
+        </div>
+      </div>
     </div>
-  </div>
-   
-  <footer class="container-fluid text-center">
-    <p>&copy; 2019: Charles Gilfeather, Andrea Panaro, Oscar De La Rosa</p>
-  </footer>
+    <div class="row">
+      <div class="container text-center">
+        <h4 class="text-center">Answer the following questions the best you can.</h4>
+        <div class="container survey-content">
+          <form>
+            <p> <br>How much do you enjoy Algebra an Calculus?</p>
+            <fieldset id="group1">
+              <label class="radio-inline"><input type="radio" name="group1">No</label>
+              <label class="radio-inline"><input type="radio" name="group1" checked> No Opinion </label>
+              <label class="radio-inline"><input type="radio" name="optradio">Yes</label>
+            </fieldset>
+            <p> <br>Do you find Discrete Math interesting?</p>
+            <fieldset id="group2">
+              <label class="radio-inline"><input type="radio" name="group2">No</label>
+              <label class="radio-inline"><input type="radio" name="group2" checked> No Opinion </label>
+              <label class="radio-inline"><input type="radio" name="group2">Yes</label>
+            </fieldset>
+            <p> <br>Do you like studio art ex: painting, drawing, photography ...?</p>
+            <fieldset id="group3">
+              <label class="radio-inline"><input type="radio" name="group3">No</label>
+              <label class="radio-inline"><input type="radio" name="group3" checked> No Opinion </label>
+              <label class="radio-inline"><input type="radio" name="group3">Yes</label>
+            </fieldset>
+            <p> <br>Do you like to play music or want to learn more about it?</p>
+            <fieldset id="group4">
+              <label class="radio-inline"><input type="radio" name="group4">No</label>
+              <label class="radio-inline"><input type="radio" name="group4" checked> No Opinion </label>
+              <label class="radio-inline"><input type="radio" name="group4">Yes</label>
+            </fieldset>
+            <p> <br>Do you like to play music or want to learn more about it?</p>
+            <fieldset id="group5">
+              <label class="radio-inline"><input type="radio" name="group5">No</label>
+              <label class="radio-inline"><input type="radio" name="group5" checked> No Opinion </label>
+              <label class="radio-inline"><input type="radio" name="group5">Yes</label>
+            </fieldset>
+            <p> <br> Do you research topics like global warming and dark matter in your free time?</p>
+            <fieldset id="group6">
+              <label class="radio-inline"><input type="radio" name="group6">No</label>
+              <label class="radio-inline"><input type="radio" name="group6" checked> No Opinion </label>
+              <label class="radio-inline"><input type="radio" name="group6">Yes</label>
+            </fieldset>
+            <p> <br> Would you consider yourself a history buff?</p>
+            <fieldset id="group7">
+              <label class="radio-inline"><input type="radio" name="group7">No</label>
+              <label class="radio-inline"><input type="radio" name="group7" checked> No Opinion </label>
+              <label class="radio-inline"><input type="radio" name="group7">Yes</label>
+            </fieldset>
+            <p> <br> Is learning another language important to you?</p>
+            <fieldset id="group8">
+              <label class="radio-inline"><input type="radio" name="group8">No</label>
+              <label class="radio-inline"><input type="radio" name="group8" checked> No Opinion </label>
+              <label class="radio-inline"><input type="radio" name="group8">Yes</label>
+            </fieldset>
+            <p> <br> Is social justice and the ideas that influence culture something you care a lot about?</p>
+            <fieldset id="group9">
+              <label class="radio-inline"><input type="radio" name="group9">No</label>
+              <label class="radio-inline"><input type="radio" name="group9" checked> No Opinion </label>
+              <label class="radio-inline"><input type="radio" name="group9">Yes</label>
+            </fieldset>
+            <p> <br> Are you always wondering how the human mind works and what it is capable of?</p>
+            <fieldset id="group10">
+              <label class="radio-inline"><input type="radio" name="group10">No</label>
+              <label class="radio-inline"><input type="radio" name="group10" checked> No Opinion </label>
+              <label class="radio-inline"><input type="radio" name="group10">Yes</label>
+            </fieldset>
+            <button type="submit" class="btn btn-primary btn-md">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
 
-</body>
+
+    <footer class="container-fluid text-center">
+      <p>&copy; 2019: Charles Gilfeather, Andrea Panaro, Oscar De La Rosa</p>
+    </footer>
+
+  </body>
+
 </html>
