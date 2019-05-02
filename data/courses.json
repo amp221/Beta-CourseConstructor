@@ -1,5 +1,4 @@
 {
-  
   "courses": {
     "COMP1010": {
       "cName": "Computing I",
@@ -41,8 +40,6 @@
       "preReq": "None",
       "coReq": "None"
     },
-    
-   
     "COMP1020": {
       "cName": "Computing II",
       "cNum": "1020",
@@ -83,8 +80,6 @@
       "preReq": "None",
       "coReq": "None"
     },
-    
-   
     "COMP2010": {
       "cName": "Computing III",
       "cNum": "2010",
@@ -133,8 +128,6 @@
       "preReq": "COMP1020",
       "coReq": "None"
     },
-
-    
     "COMP2040": {
       "cName": "Computing IV",
       "cNum": "2040",
@@ -175,8 +168,6 @@
       "preReq": "None",
       "coReq": "None"
     },
- 
-    
     "COMP3040": {
       "cName": "Foundations of Computer Science",
       "cNum": "3040",
@@ -217,8 +208,6 @@
       "preReq": "None",
       "coReq": "None"
     },
-     
-    
     "COMP3010": {
       "cName": "Organization of Programming Languages",
       "cNum": "3010",
@@ -249,8 +238,6 @@
       "cCredit": 3,
       "cDepartment": "FREE"
     },
-    
-    
     "COMP4040": {
       "cName": "Analysis of Algorithms",
       "cNum": "4040",
@@ -281,8 +268,6 @@
       "cCredit": 3,
       "cDepartment": "SSEL"
     },
-     
-    
     "COMPPRO2": {
       "cName": "Project Course II",
       "cNum": "PRO2",

@@ -9,8 +9,8 @@
     "advisorEmail": "Some_Guy@uml.edu"
   },
   "user_courses": {
-    "COMP1010": "required",
-    "COMP1030L": "required",
+    "COMP1010": "completed",
+    "COMP1030L": "completed",
     "MATH1310": "required",
     "ENGL1010": "required",
     "SSEL0001": "required",
