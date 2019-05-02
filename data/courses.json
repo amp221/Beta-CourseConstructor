@@ -1,12 +1,14 @@
 {
   "courses": {
+
     "COMP1010": {
       "cName": "Computing I",
       "cNum": "1010",
       "cCredit": 3,
       "cDepartment": "COMP",
       "preReq": [],
-      "coReq": ["COMP1030L"]
+      "coReq": ["COMP1030L"],
+      "csGenSemester": 1
     },
     "COMP1030L": {
       "cName": "Computing I Lab",
@@ -14,7 +16,8 @@
       "cCredit": 1,
       "cDepartment": "COMP",
       "preReq": [],
-      "coReq": ["COMP1010"]
+      "coReq": ["COMP1010"],
+      "csGenSemester": 1
     },
     "MATH1310": {
       "cName": "Calculus I",
@@ -22,7 +25,8 @@
       "cCredit": 4,
       "cDepartment": "MATH",
       "preReq": [],
-      "coReq": []
+      "coReq": [],
+      "csGenSemester": 1
     },
     "ENGL1010": {
       "cName": "College Writing I",
@@ -30,7 +34,8 @@
       "cCredit": 3,
       "cDepartment": "ENGL",
       "preReq": [],
-      "coReq": []
+      "coReq": [],
+      "csGenSemester": 1
     },
     "SSEL0001": {
       "cName": "Social Science Elective",
@@ -38,15 +43,18 @@
       "cCredit": 3,
       "cDepartment": "SSEL",
       "preReq": [],
-      "coReq": []
+      "coReq": [],
+      "csGenSemester": 1
     },
+
     "COMP1020": {
       "cName": "Computing II",
       "cNum": "1020",
       "cCredit": 3,
       "cDepartment": "COMP",
       "preReq": ["COMP1010"],
-      "coReq": ["COMP1040L"]
+      "coReq": ["COMP1040L"],
+      "csGenSemester": 2
     },
     "COMP1040L": {
       "cName": "Computing II Lab",
@@ -54,7 +62,8 @@
       "cCredit": 1,
       "cDepartment": "COMP",
       "preReq": [],
-      "coReq": ["COMP1020"]
+      "coReq": ["COMP1020"],
+      "csGenSemester": 2
     },
     "MATH1320": {
       "cName": "Calculus II",
@@ -62,7 +71,8 @@
       "cCredit": 4,
       "cDepartment": "MATH",
       "preReq": ["MATH1310"],
-      "coReq": []
+      "coReq": [],
+      "csGenSemester": 2
     },
     "ENGL1020": {
       "cName": "College Writing II",
@@ -70,7 +80,8 @@
       "cCredit": 3,
       "cDepartment": "ENGL",
       "preReq": ["ENGL1010"],
-      "coReq": []
+      "coReq": [],
+      "csGenSemester": 2
     },
     "AHEL0001": {
       "cName": "Arts and Humanities Elective",
@@ -78,15 +89,18 @@
       "cCredit": 3,
       "cDepartment": "AHEL",
       "preReq": [],
-      "coReq": []
+      "coReq": [],
+      "csGenSemester": 2
     },
+
     "COMP2010": {
       "cName": "Computing III",
       "cNum": "2010",
       "cCredit": 3,
       "cDepartment": "COMP",
       "preReq": ["COMP1020"],
-      "coReq": ["COMP2010L"]
+      "coReq": ["COMP2010L"],
+      "csGenSemester": 3
     },
     "COMP2010L": {
       "cName": "Computing III Lab",
@@ -94,7 +108,8 @@
       "cCredit": 1,
       "cDepartment": "COMP",
       "preReq": [],
-      "coReq": ["COMP2010"]
+      "coReq": ["COMP2010"],
+      "csGenSemester": 3
     },
     "COMP2030": {
       "cName": "Assembly Language Programming",
@@ -102,7 +117,8 @@
       "cCredit": 3,
       "cDepartment": "COMP",
       "preReq": ["COMP1020"],
-      "coReq": ["COMP2030L"]
+      "coReq": ["COMP2030L"],
+      "csGenSemester": 3
     },
     "COMP2030L": {
       "cName": "Assembly Language Programming Lab",
@@ -110,7 +126,8 @@
       "cCredit": 1,
       "cDepartment": "COMP",
       "preReq": ["COMP1020"],
-      "coReq": ["COMP2030"]
+      "coReq": ["COMP2030"],
+      "csGenSemester": 3
     },
     "MATH2190": {
       "cName": "Discrete Structures I",
@@ -118,7 +135,8 @@
       "cCredit": 3,
       "cDepartment": "MATH",
       "preReq": ["MATH1310"],
-      "coReq": []
+      "coReq": [],
+      "csGenSemester": 3
     },
     "EECE2650": {
       "cName": "Logic Design",
@@ -126,15 +144,18 @@
       "cCredit": 3,
       "cDepartment": "EECE",
       "preReq": ["COMP1020"],
-      "coReq": []
+      "coReq": [],
+      "csGenSemester": 3
     },
+
     "COMP2040": {
       "cName": "Computing IV",
       "cNum": "2040",
       "cCredit": 3,
       "cDepartment": "COMP",
       "preReq": ["COMP2010"],
-      "coReq": []
+      "coReq": [],
+      "csGenSemester": 4
     },
     "ENGL2200": {
       "cName": "Oral & Written Communications for CS",
@@ -142,7 +163,8 @@
       "cCredit": 3,
       "cDepartment": "ENGL",
       "preReq": ["ENGL1020"],
-      "coReq": []
+      "coReq": [],
+      "csGenSemester": 4
     },
     "MATH3220": {
       "cName": "Discrete Structures II",
@@ -150,7 +172,8 @@
       "cCredit": 3,
       "cDepartment": "MATH",
       "preReq": ["MATH2190"],
-      "coReq": []
+      "coReq": [],
+      "csGenSemester": 4
     },
     "MATH3860": {
       "cName": "Probabiliy & Statistics I",
@@ -158,7 +181,8 @@
       "cCredit": 3,
       "cDepartment": "MATH",
       "preReq": ["MATH1320"],
-      "coReq": []
+      "coReq": [],
+      "csGenSemester": 4
     },
     "NSCI0001": {
       "cName": "Natural Science with Lab",
@@ -166,15 +190,18 @@
       "cCredit": 4,
       "cDepartment": "NSCI",
       "preReq": [],
-      "coReq": []
+      "coReq": [],
+      "csGenSemester": 4
     },
+
     "COMP3040": {
       "cName": "Foundations of Computer Science",
       "cNum": "3040",
       "cCredit": 3,
       "cDepartment": "COMP",
       "preReq": ["COMP1020", "MATH3220"],
-      "coReq": []
+      "coReq": [],
+      "csGenSemester": 5
     },
     "COMP3050": {
       "cName": "Computer Architecture",
@@ -182,7 +209,8 @@
       "cCredit": 3,
       "cDepartment": "COMP",
       "preReq": ["EECE2650", "COMP1020", "COMP2030"],
-      "coReq": []
+      "coReq": [],
+      "csGenSemester": 5
     },
     "NSCI0002": {
       "cName": "Natural Science with Lab",
@@ -190,7 +218,8 @@
       "cCredit": 4,
       "cDepartment": "NSCI",
       "preReq": [],
-      "coReq": []
+      "coReq": [],
+      "csGenSemester": 5
     },
     "CSET0001": {
       "cName": "CS Ethics",
@@ -198,7 +227,8 @@
       "cCredit": 3,
       "cDepartment": "CSET",
       "preReq": [],
-      "coReq": []
+      "coReq": [],
+      "csGenSemester": 5
     },
     "FREE0001": {
       "cName": "Free Elective",
@@ -206,15 +236,18 @@
       "cCredit": 3,
       "cDepartment": "FREE",
       "preReq": [],
-      "coReq": []
+      "coReq": [],
+      "csGenSemester": 5
     },
+
     "COMP3010": {
       "cName": "Organization of Programming Languages",
       "cNum": "3010",
       "cCredit": 3,
       "cDepartment": "COMP",
       "preReq": ["FIX ME"],
-      "coReq": ["FIX ME"]
+      "coReq": ["FIX ME"],
+      "csGenSemester": 6
     },
     "COMP3080": {
       "cName": "Introduction to Operating Systems",
@@ -223,6 +256,7 @@
       "cDepartment": "COMP",
       "preReq": ["FIX ME"],
       "coReq": ["FIX ME"]
+      "csGenSemester": 6
     },
     "NSCI0003": {
       "cName": "Natural Science with Lab",
@@ -230,7 +264,8 @@
       "cCredit": 4,
       "cDepartment": "NSCI",
       "preReq": [],
-      "coReq": []
+      "coReq": [],
+      "csGenSemester": 6
     },
     "SSEL0002": {
       "cName": "Social Science Elective",
@@ -238,7 +273,8 @@
       "cCredit": 3,
       "cDepartment": "SSEL",
       "preReq": [],
-      "coReq": []
+      "coReq": [],
+      "csGenSemester": 6
     },
     "FREE0002": {
       "cName": "Free Elective",
@@ -246,15 +282,18 @@
       "cCredit": 3,
       "cDepartment": "FREE",
       "preReq": [],
-      "coReq": []
+      "coReq": [],
+      "csGenSemester": 6
     },
+
     "COMP4040": {
       "cName": "Analysis of Algorithms",
       "cNum": "4040",
       "cCredit": 3,
       "cDepartment": "COMP",
       "preReq": ["FIX ME"],
-      "coReq": ["FIX ME"]
+      "coReq": ["FIX ME"],
+      "csGenSemester": 7
       
     },
     "COMPPRO1": {
@@ -263,7 +302,8 @@
       "cCredit": 3,
       "cDepartment": "COMP",
       "preReq": [],
-      "coReq": []
+      "coReq": [],
+      "csGenSemester": 7
     },
     "COMP0001": {
       "cName": "Computer Science Elective",
@@ -271,7 +311,8 @@
       "cCredit": 3,
       "cDepartment": "COMP",
       "preReq": [],
-      "coReq": []
+      "coReq": [],
+      "csGenSemester": 7
     },
     "TCEL0001": {
       "cName": "Technical Elective",
@@ -279,7 +320,8 @@
       "cCredit": 3,
       "cDepartment": "TCEL",
       "preReq": [],
-      "coReq": []
+      "coReq": [],
+      "csGenSemester": 7
     },
     "SSEL0003": {
       "cName": "Social Sciences Elective",
@@ -287,15 +329,18 @@
       "cCredit": 3,
       "cDepartment": "SSEL",
       "preReq": [],
-      "coReq": []
+      "coReq": [],
+      "csGenSemester": 7
     },
+
     "COMPPRO2": {
       "cName": "Project Course II",
       "cNum": "PRO2",
       "cCredit": 3,
       "cDepartment": "COMP",
       "preReq": ["COMPPRO1"],
-      "coReq": []
+      "coReq": [],
+      "csGenSemester": 8
     },
     "COMP0002": {
       "cName": "Computer Science Elective",
@@ -303,7 +348,8 @@
       "cCredit": 3,
       "cDepartment": "COMP",
       "preReq": [],
-      "coReq": []
+      "coReq": [],
+      "csGenSemester": 8
     },
     "TCEL0002": {
       "cName": "Technical Elective",
@@ -311,7 +357,8 @@
       "cCredit": 3,
       "cDepartment": "TCEL",
       "preReq": [],
-      "coReq": []
+      "coReq": [],
+      "csGenSemester": 8
     },
     "FREE0003": {
       "cName": "Free Elective",
@@ -319,7 +366,8 @@
       "cCredit": 3,
       "cDepartment": "FREE",
       "preReq": [],
-      "coReq": []
+      "coReq": [],
+      "csGenSemester": 8
     },
     "FREE0004": {
       "cName": "Free Elective",
@@ -327,7 +375,8 @@
       "cCredit": 3,
       "cDepartment": "FREE",
       "preReq": [],
-      "coReq": []
+      "coReq": [],
+      "csGenSemester": 8
     }
   }
 }

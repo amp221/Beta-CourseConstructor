@@ -47,6 +47,9 @@
   font-weight: bolder;
   z-index: -1;
 }
+/*.card img {
+  filter: contrast(1000%);
+}*/
 
 .btn {
   background-color:  #0469B1;
