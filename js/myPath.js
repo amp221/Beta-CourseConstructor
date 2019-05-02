@@ -9,8 +9,8 @@ var classKeys = ["COMP1010", "COMP1030L", "MATH1310", "ENGL1010", "SSEL0001", "C
 
 //function that returns the total number of course credits in the course path
 //function that returns the total number of completed credits.
-var courseCredits = 0, userCredits = 0, creditsLeft; 
-
+var courseCredits = 0, userCredits = 0, creditsLeft = 0; 
+var popoverText, cID, myID, test;
 
 $.getJSON("data/courses.json", function (csCourses) {
     console.log(csCourses);
@@ -45,9 +45,42 @@ $.getJSON("data/courses.json", function (csCourses) {
             }
             semestersLeft();
             
-            /* checks for change in course status and prints/returns course number and status.
-             we can use this to update the course status in the future*/
-            
+            /* inserts pre/coreq's into popover */
+            function getPreCoreq() {
+                
+                for (let index = 0, len = classKeys.length; index < len; index++) {
+                    popoverText = "";
+                    
+                    preLen = csCourses.courses[classKeys[index]].preReq.length;
+                    coLen = csCourses.courses[classKeys[index]].coReq.length;
+                    //checking for preReq(s)
+                    if (preLen == 0) {
+                        popoverText += "Prereq: None," + "\n";
+                    } else {
+                        popoverText += "Prereq:"
+                        for (var i = 0; i < preLen; i++) {
+                            popoverText += ' ' + csCourses.courses[classKeys[index]].preReq[i] + ",";
+                        }  
+                    }
+                    popoverText += "\n";
+                    // checking for coreq(s)
+                    if (coLen == 0) {
+                        popoverText += "Coreq: None \n";
+                    } else {
+                        popoverText += "\n Coreq:"
+                        for (var i = 0; i < coLen; i++) {
+                            popoverText += ' ' + csCourses.courses[classKeys[index]].coReq[i] + ", \n";
+                        }  
+                    }
+                    cID = '#';
+                    cID += classKeys[index];
+                    $(cID).attr('data-content', popoverText);
+                }
+            }
+            getPreCoreq();
+
+        /* checks for change in course status and prints/returns course number and status.
+         we can use this to update the course status in the future*/
             $("select").change(function () {
                 var selectedStatus = $(this).children("option:selected").val();
                 alert(this.className + " You have selected  " + selectedStatus);
