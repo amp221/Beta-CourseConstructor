@@ -1,6 +1,5 @@
 {
   "courses": {
-
     "COMP1010": {
       "cName": "Computing I",
       "cNum": "1010",
@@ -8,7 +7,7 @@
       "cDepartment": "COMP",
       "preReq": [],
       "coReq": ["COMP1030L"],
-      "csGenSemester": 1
+      "csGenSemester": 1      
     },
     "COMP1030L": {
       "cName": "Computing I Lab",
@@ -46,7 +45,6 @@
       "coReq": [],
       "csGenSemester": 1
     },
-
     "COMP1020": {
       "cName": "Computing II",
       "cNum": "1020",
@@ -92,7 +90,6 @@
       "coReq": [],
       "csGenSemester": 2
     },
-
     "COMP2010": {
       "cName": "Computing III",
       "cNum": "2010",
@@ -193,7 +190,6 @@
       "coReq": [],
       "csGenSemester": 4
     },
-
     "COMP3040": {
       "cName": "Foundations of Computer Science",
       "cNum": "3040",
@@ -239,7 +235,6 @@
       "coReq": [],
       "csGenSemester": 5
     },
-
     "COMP3010": {
       "cName": "Organization of Programming Languages",
       "cNum": "3010",
@@ -255,7 +250,7 @@
       "cCredit": 3,
       "cDepartment": "COMP",
       "preReq": ["FIX ME"],
-      "coReq": ["FIX ME"]
+      "coReq": ["FIX ME"],
       "csGenSemester": 6
     },
     "NSCI0003": {
