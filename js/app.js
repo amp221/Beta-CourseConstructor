@@ -41,7 +41,7 @@
       .then((returnedUser) => {
             window.location.href = './home.html';
           });
-    promise.catch(e => console.log(e.message));
+    promise.catch(e => alert(e.message));
   });
 
   logout.addEventListener('click', e => {
