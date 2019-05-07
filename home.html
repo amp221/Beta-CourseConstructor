@@ -6,15 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="pinterest" content="nopin" >
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://www.gstatic.com/firebasejs/5.11.0/firebase.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <!-- <link rel="stylesheet" type="text/css" href="bootstrap.min.css"> --> 
+  <!-- <link rel="stylesheet" type="text/css" href="bootstrap.min.css"> -->
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/home.css">
-</head> 
-<body> 
+</head>
+<body>
   <nav class="navbar navbar-inverse">
-    <div class="container-fluid">     
+    <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
           <span class="icon-bar"></span>
@@ -23,7 +24,7 @@
         </button>
         <!-- UML logo-->
         <div class="uml_logo">
-          <a href="https://www.uml.edu/"><img class="img-responsive"      
+          <a href="https://www.uml.edu/"><img class="img-responsive"
           src="images/uml_logo.svg"></a>
         </div>
         <!-- Course Cunstroctor-->
@@ -35,25 +36,25 @@
           <li><a href="myPath.html">My Path</a></li>
           <li><a href="mySchedule.html">My Schedule</a></li>
           <li><a href="myElectives.html">My Electives</a></li>
-          <li><a href="signIn.html">Sign Out</a></li>
+          <li id="logout"><a href="signIn.html">Sign Out</a></li>
         </ul>
       </div>
     </div>
   </nav>
-   
+
   <div class= "row content">
     <div class="container">
       <div class="jumbotron">
-        <h1 class= "Hi-student-name"> Hi John! </h1> 
+        <h1 class= "Hi-student-name"> Hi John! </h1>
         <p class = "change-in-curriculum"> There has been a recent change to the curriculum.
         Assembly will now be replaced with Intro to Basket Weaving.
         If this affects you, reach out to your advisor.
-        They can help you with the next steps.</p> 
+        They can help you with the next steps.</p>
       </div>
-    </div> 
+    </div>
   </div> <!-- row 1 end-->
 
-    <!-- center content container -->      
+    <!-- center content container -->
     <!--<div class= "container col-sm-2 MT">
     </div>
     <div class="container col-sm-10 student">
@@ -63,14 +64,14 @@
         <h2 class="student-name">John Smith</h2>
         <h4 class="student-major-track">Computer Science | General</h4>
         <h4 class="student-grad-date">Graduating: May 2023</h4>
-      </div>  
+      </div>
     </div>
     <div class= "container col-sm-0 MT">
-    </div> -->    
+    </div> -->
 
- 
+
   <div class="row content" id="options">
-    <div class="container-fluid text-center">  
+    <div class="container-fluid text-center">
       <!--My Path-->
       <div class="container col-sm-4">
         <div class="card" >
@@ -83,7 +84,7 @@
         </div>
       </div>
       <!--My Schedule-->
-      <div class="container col-sm-4"> 
+      <div class="container col-sm-4">
         <div class="card">
           <h4 class="card-title">My Schedule</h4>
           <img class="card-img-top" src="images/gray-sched.png" alt="Card image cap"style="width: 16rem;">
@@ -93,10 +94,10 @@
           </div>
         </div>
       </div>
-      <!--My Schedule-->    
+      <!--My Schedule-->
       <div class="container col-sm-4">
         <div class="card">
-          <h4 class="card-title">My Electives</h4> 
+          <h4 class="card-title">My Electives</h4>
           <img class="card-img-top" src="images/student.jpg" alt="Card image cap"style="width: 16rem;">
           <div class="card-body">
             <p class="card-text"> Find classes you enjoy.</p>
@@ -111,6 +112,6 @@
   <footer class="container-fluid text-center">
     <p>&copy; 2019: Charles Gilfeather, Andrea Panaro, Oscar De La Rosa</p>
   </footer>
-
+  <script src="js/app.js" charset="utf-8"></script>
 </body>
 </html>
