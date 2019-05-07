@@ -7,7 +7,7 @@
       "cDepartment": "COMP",
       "preReq": [],
       "coReq": ["COMP1030L"],
-      "csGenSemester": 1      
+      "csGenSemester": 1
     },
     "COMP1030L": {
       "cName": "Computing I Lab",
@@ -240,17 +240,17 @@
       "cNum": "3010",
       "cCredit": 3,
       "cDepartment": "COMP",
-      "preReq": ["FIX ME"],
-      "coReq": ["FIX ME"],
+      "preReq": ["COMP2010"],
+      "coReq": [],
       "csGenSemester": 6
     },
     "COMP3080": {
-      "cName": "Introduction to Operating Systems",
+      "cName": "Operating Systems",
       "cNum": "3080",
       "cCredit": 3,
       "cDepartment": "COMP",
-      "preReq": ["FIX ME"],
-      "coReq": ["FIX ME"],
+      "preReq": ["COMP3050"],
+      "coReq": [],
       "csGenSemester": 6
     },
     "NSCI0003": {
@@ -286,10 +286,10 @@
       "cNum": "4040",
       "cCredit": 3,
       "cDepartment": "COMP",
-      "preReq": ["FIX ME"],
-      "coReq": ["FIX ME"],
+      "preReq": ["COMP1020", "MATH3220", "MATH3860"],
+      "coReq": [],
       "csGenSemester": 7
-      
+
     },
     "COMPPRO1": {
       "cName": "Project Course I",
